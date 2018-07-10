@@ -1,0 +1,4 @@
+<!--pages/mine/mine.wxml-->
+<text>我的页面</text>
+<view>{{arr}}</view>
+<text bindtap="click">点击数值翻倍</text>
