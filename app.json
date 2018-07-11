@@ -1,15 +1,16 @@
 {
-  "pages":[
+  "pages": [
     "pages/index/index",
     "pages/logs/logs",
     "pages/shop/shop",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/index/list/list"
   ],
-  "window":{
-    "backgroundTextStyle":"light",
+  "window": {
+    "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "首页",
-    "navigationBarTextStyle":"black"
+    "navigationBarTextStyle": "black"
   },
   "tabBar": {
     "list": [
@@ -27,5 +28,4 @@
       }
     ]
   }
-  
 }

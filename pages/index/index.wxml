@@ -8,6 +8,10 @@
     </block>
   </view>
   <view class="usermotto">
-    <text class="user-motto">{{motto}}</text>
+    <text class="user-motto" wx:if="{{show}}">{{motto}}</text>
   </view>
+  <view>
+      <text class="user-motto" bindtap="showHide">显示/隐藏</text>
+   </view>
+   <navigator url='list/list'>查看列表</navigator>
 </view>

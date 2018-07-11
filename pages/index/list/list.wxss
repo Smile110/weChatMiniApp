@@ -1,0 +1,16 @@
+/* pages/index/list/list.wxss */
+.list-item {
+  height: 50px;
+  margin: 20rpx 0;
+}
+
+.list-img {
+  width: 100px;
+  height: 100px;
+  float: left;
+}
+
+.list-title {
+  width: 80%;
+  float: left;
+}
