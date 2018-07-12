@@ -1,0 +1,5 @@
+<template name="msgItem">
+  <view>
+    <text>{{shopItem.label}}</text>
+  </view>
+</template>

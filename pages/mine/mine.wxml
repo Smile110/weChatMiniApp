@@ -1,4 +1,4 @@
 <!--pages/mine/mine.wxml-->
 <text>我的页面</text>
-<view>{{arr}}</view>
+<view><text style='margin-right: 20px;' wx:for-items="{{arr}}" wx:for-index="idx">{{idx}} => {{item}}</text></view>
 <text bindtap="click">点击数值翻倍</text>

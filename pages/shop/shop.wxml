@@ -1,3 +1,4 @@
 <!--pages/shop/shop.wxml-->
-<text>pages/shop/shop.wxml</text>
 <view>商城</view>
+<import src="../template/template.wxml"/>
+<template is="msgItem" data="{{shopItem}}"/>

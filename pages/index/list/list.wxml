@@ -1,7 +1,13 @@
 <!--pages/index/list/list.wxml-->
 <view>
-  <view class='list-item' wx:for-items="{{list}}" wx:key="{{item.id}}">
-    <image class="list-img" src="resources/kind/{{item.id}}.png"></image>
-    <view class='list-title'>{{item.name}}</view>
+  <view class='list-item clearfix' wx:for-items="{{list}}" wx:key="{{item.id}}">
+    <image class="list-img" src="images/{{item.thumbnail}}.png"></image>
+    <view class='list-info'>
+      <view class='hotel-name'>{{item.name}}</view>
+      <view class='hotel-address'>{{item.address}}</view>
+      <view>
+        <text class='facility' wx:for-items="{{item.facilities}}" wx:for-item="facility" key="*item">{{facility}}</text>
+      </view>
+    </view>
   </view>
 </view>
