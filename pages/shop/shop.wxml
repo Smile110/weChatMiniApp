@@ -2,3 +2,6 @@
 <view>商城</view>
 <import src="../template/template.wxml"/>
 <template is="msgItem" data="{{shopItem}}"/>
+<view style='display: flex;'>
+    <input-component></input-component>
+</view>

@@ -2,7 +2,7 @@
 Page({
   data: {
     shopItem: {
-        label: '使用模板'
+        label: '使用模板template'
     }
   },
   /**
@@ -11,14 +11,6 @@ Page({
   properties: {
 
   },
-
-  /**
-   * 组件的初始数据
-   */
-  data: {
-
-  },
-
   /**
    * 组件的方法列表
    */

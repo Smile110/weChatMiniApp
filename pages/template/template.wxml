@@ -3,3 +3,9 @@
     <text>{{shopItem.label}}</text>
   </view>
 </template>
+
+<template name="list">
+  <view>
+    <text>{{shopItem.label}}</text>
+  </view>
+</template>

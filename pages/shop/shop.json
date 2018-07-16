@@ -1,5 +1,8 @@
 {
   "component": true,
   "usingComponents": {},
-  "navigationBarTitleText": "商城"
+  "navigationBarTitleText": "商城",
+  "usingComponents": {
+    "input-component": "./../components/input/input"
+  }
 }
