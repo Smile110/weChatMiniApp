@@ -29,6 +29,29 @@ Page({
                 address: '北京市西城区',
                 thumbnail: 'list-1',
                 facilities: ['WiFi', '停车场','自助选房']
+            }, {
+              id: 0,
+              name: '高级双床房',
+              marketPrice: '300',
+              address: '北京市海淀区',
+              thumbnail: 'list-1',
+              facilities: ['WiFi', '停车场', '餐厅', '自助选房']
+            },
+            {
+              id: 1,
+              name: '总统套房',
+              marketPrice: '300',
+              address: '北京市朝阳区',
+              thumbnail: 'list-2',
+              facilities: ['WiFi', '停车场', '餐厅']
+            },
+            {
+              id: 2,
+              name: '皇室套房',
+              marketPrice: '300',
+              address: '北京市西城区',
+              thumbnail: 'list-1',
+              facilities: ['WiFi', '停车场', '自助选房']
             }
 
         ]

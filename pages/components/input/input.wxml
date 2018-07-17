@@ -1,2 +1,2 @@
 <!--pages/components/input/input.wxml-->
-<view class='form-group'><text class='input-label'>{{info.label}}</text><input placeholder="自动聚焦啦" auto-focus /></view>
+<view class='form-group'><text class='input-label'>{{info.label}}</text><input placeholder="自动聚焦啦" placeholder-class="placeholder-style"/></view>

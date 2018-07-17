@@ -1,1 +1,9 @@
 /* pages/shop/shop.wxss */
+.swiper-item {
+  text-align: center;
+}
+
+.banner-item image {
+  width: 90%;
+  height: 100%;
+}

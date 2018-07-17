@@ -5,3 +5,12 @@
 <view style='display: flex;'>
     <input-component></input-component>
 </view>
+<view class="banner" style='text-align:center;'>
+  <swiper indicator-dots="true" autoplay="true" interval="3000" duration="500">
+    <block wx:for="{{bannerAlbum}}">
+      <swiper-item class="banner-item">
+        <image src='{{item}}' width="355" height="150"></image>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>

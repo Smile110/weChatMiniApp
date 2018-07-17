@@ -11,7 +11,10 @@
     <text class="user-motto" wx:if="{{show}}">{{motto}}</text>
   </view>
   <button class="user-motto" bindtap="showHide">显示/隐藏</button>
-   <navigator url='list/list'>酒店列表</navigator>
+    <button bindtap="goHotelList">查询</button>
+
+  <!-- url='list/list'  -->
+   <navigator bingtap="goHotelList">酒店列表</navigator>
    <view>
     <input-component></input-component>
   </view>

@@ -1,20 +1,25 @@
 //index.js
 //获取应用实例
 const app = getApp()
-
 Page({
     data: {
         motto: 'Hello World',
         userInfo: {},
         hasUserInfo: false,
         canIUse: wx.canIUse('button.open-type.getUserInfo'),
-        show: true
+        show: true,
+        hotelId: '005'
     },
     //事件处理函数
     bindViewTap: function () {
-        wx.navigateTo({
+      wx.navigateTo({
             url: '../logs/logs'
         })
+    },
+    goHotelList: function () {
+      wx.switchTab({
+        url: '../shop/shop'
+      })
     },
     onLoad: function () {
         if (app.globalData.userInfo) {
